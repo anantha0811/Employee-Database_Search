@@ -1,0 +1,44 @@
+*{
+	font-family: 'serif', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: 'georgia', sans-serif;
+	color: #ffffff;
+	margin-top: 20px;
+	text-align: center;
+}
+
+body{
+	background: url('img/update.jpeg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+table{
+	color: #ffffff;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #ba0d24;
+  padding: 12px 34px;
+  font-size: 16px;
+  background:transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn:hover{
+  border: 1px solid #36a2f4;
+  background:#A9A9A9;
+  transition: 1s;
+}

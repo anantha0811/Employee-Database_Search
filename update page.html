@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="update.css">
+	<title> Update Details </title>
+	<style type="text/css">
+		body{
+			height: 100vh;
+			width: 100vh;
+			background: url(img/update.jpeg);
+			background-size: cover;
+		}
+		input{
+			width: 40%;
+			height: 5%;
+			border: 1px;
+			border-radius: 05px;
+			padding: 8px 15px 8px 15px;
+			margin: 10px 0px 15px 0px;
+			box-shadow: 1px 1px 2px 1px grey;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<h1>Update Data</h1>
+			<form action="updatephp.php" method="post">
+				<input type="text" name="ID" placeholder="Enter ID"><br>
+				<input type="text" name="Name" placeholder="Enter Name"><br>
+				<input type="text" name="Gender" placeholder="Enter Gender"><br>
+				<input type="text" name="Position" placeholder="Enter Position"><br>
+				<input type="text" name="Attendance" placeholder="Enter Attendance"><br>
+				<input type="text" name="Salary" placeholder="Enter Salary"><br>
+				<input type="text" name="Contact" placeholder="Enter Contact"><br>
+				<input type="text" name="Address" placeholder="Enter Address"><br>
+				<input type="text" name="Joining" placeholder="Enter Joining"><br>
+
+				<input type="submit" name="update" value="Update Data">
+			</form>
+		</center>
+</body>
+</html>
+
+
+

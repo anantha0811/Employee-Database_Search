@@ -1,0 +1,101 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Search</title>
+		
+		</head>
+		<body>
+				<div class="row">
+					<div class="col">
+						<h1>The RR Tech</h1>
+						<h3><center>Welcome Admin!</center></h3>
+						<center>
+				<form action="phpsearch.php" method="post">
+					<div id="search-box">
+				 <input type="text" name="search" placeholder="Enter ID to search"><br>
+					</div>
+				<input type ="submit" class="btn" >
+				<div class="pass1">
+            <p> <a href="update page.html">
+              <strong>Update Here</strong></a></p>
+          </div>
+			
+				</form>
+			</center>
+			</div>
+		</div>
+		</body>
+		</html>
+
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+			body{
+				width: 150vh;
+				height: 100vh;
+				background: url(img/bg1.jpg);
+				background-position: center;
+				background-size: cover;
+				font-family: 'poppins',sans-serif;
+				padding: 0;
+				margin: 0;
+			}
+			.row{
+				color: #fff;
+				display: flex;
+				padding-left: 630px;
+
+			}
+			.col{
+				display:inline-block;
+			}
+			h1{
+				padding-top: 50px;
+				font-size: 60px;
+			}
+			h3{
+				font-size: 30px;
+			}
+			#search-box{
+				width: 30% ;
+				margin-right: 100px;
+			}
+			#search-box input,button{
+				width: 180%;
+				border: 2px solid #fff;
+				font-size: 18px;
+				padding: 12px;
+				background: transparent;
+				color: white;
+			}
+			.btn{
+				display: inline-block;
+				text-decoration: none;
+				color: #fff;
+				border: 1px solid #fff;
+				padding: 12px 34px;
+				margin: 20px;
+				font-size: 13px;
+				background:transparent;
+				position: relative;
+				cursor: pointer;
+			}
+			.btn:hover{
+				border: 1px solid #f44336;
+				background:#f44336;
+				transition: 1s;
+			}
+			.pass1{
+  				text-align: left;
+  				margin: 20px 130px 0px;
+			}
+			.pass1 a{
+ 				 color: white;
+ 				 text-decoration: none;
+ 				 font-family: 'Poppins',sans-serif;
+			}
+			.pass1:hover a{
+ 				 text-decoration: underline;
+			}
+		</style>
